@@ -10,7 +10,7 @@ new Vue({
 
     methods: {
     buildurl:function(longurl){
-        this.shorturl=this.longurl+""
+        this.shorturl=this.longurl+"HELLO"
         return shorturl
         
     }
